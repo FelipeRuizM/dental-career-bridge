@@ -1,5 +1,8 @@
 import { useEffect, useState } from 'react'
 import logoImg from './assets/logo.png'
+import image1 from './assets/image1.jpeg'
+import image2 from './assets/image2.jpeg'
+import image3 from './assets/image3.jpeg'
 import './App.css'
 
 const heroFeatures = [
@@ -309,7 +312,7 @@ const EnrollmentModal = ({ open, onClose }: EnrollmentModalProps) => {
         <div className="modal-right">
           <div className="modal-image">
             <img
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80"
+              src={image3}
               alt="Dentist reviewing program"
             />
           </div>
@@ -431,7 +434,7 @@ function App() {
         <div className="hero-right">
           <div className="hero-image">
             <img
-              src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=900&q=80"
+              src={image1}
               alt="Dental professional in clinic"
             />
           </div>
@@ -451,7 +454,7 @@ function App() {
           <div className="challenge-card">
             <div className="challenge-photo">
               <img
-                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=80"
+                src={image2}
                 alt="Dentist studying"
               />
             </div>
