@@ -787,15 +787,18 @@
   .modal {
     grid-template-columns: 1fr;
     max-height: 95vh;
+    overflow-y: auto;
   }
   .modal-right {
     order: -1;
+    overflow-y: visible;
   }
   .modal-image {
     height: 140px;
   }
   .modal-left {
     padding: 28px 26px;
+    overflow-y: visible;
   }
 }
 
